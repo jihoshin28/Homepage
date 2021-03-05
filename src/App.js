@@ -12,7 +12,7 @@ import Skills from './components/sections/Skills'
 import Resume from './components/sections/Resume'
 import Portfolio from './components/sections/Portfolio'
 import Services from './components/sections/Services'
-import Testimonials from './components/sections/Portfolio'
+import Contact from './components/sections/Contact'
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         <Resume/>
         <Portfolio/>
         <Services/>
-        <Testimonials/>
+        <Contact/>
       </main>
       <Footer/>
     </div>

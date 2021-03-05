@@ -343,9 +343,15 @@ section {
   overflow: hidden;
 }
 
+.section-center{
+  display: flex;
+  justify-content: center;
+}
+
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 5%;
+  width: 60%;
 }
 
 .section-title h2 {

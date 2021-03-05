@@ -9,12 +9,12 @@ class Hero extends React.Component {
     }
 
     componentDidMount(){
-        const string = ["Bay Area Native", "Problem Solver", "Software Developer"]
+        const string = ["Bay Area Native", "Problem Solver", "Full Stack Developer"]
         const options = {
             strings: string,
-            typeSpeed: 70, 
-            backSpeed: 35,
-            backDelay: 3000,
+            typeSpeed: 35, 
+            backSpeed: 70,
+            backDelay: 2000,
             cursorChar: '_'
         }
         this.typed = new Typed('#typed', options)
