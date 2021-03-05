@@ -44,7 +44,10 @@ const About = () => {
                         <div style = {{width: '80%'}}>
                             <p>
                                 Graduate in Biology from UCSD in 2016, but realized my true passion was in technology. I've since accumulated 3 years of experience building 
-                                20+ full stack projects, solo and in team environments. I've lived in both Israel and Turkey for 2 years to make international friends and explore. When I'm not coding,
+                                20+ full stack projects, solo and in team environments. I've lived in both Israel and Turkey for 2 years to make international friends and explore. 
+                            </p>
+                            <p>
+                                When I'm not coding,
                                 I'm writing blogs, reading my Bible, maintaining a freshwater aquarium, or working on my golf swing. 
                             </p>
                         </div>
