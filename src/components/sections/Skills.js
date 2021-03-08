@@ -53,7 +53,7 @@ const Skills = () => {
                     <li>Express</li>
                     <li>Node.js</li>
                     <li>Python</li>
-                    <li>FAST api</li>
+                    <li>FAST API</li>
                     <li>MySQL</li>
                     <li>Postgres</li>
                 </ul>
