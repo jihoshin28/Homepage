@@ -1,4 +1,5 @@
 import React from 'react' 
+import Project from '../Project'
 
 const Portfolio = () => {
     return(
@@ -15,7 +16,8 @@ const Portfolio = () => {
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-breadBasket">BreadBasket</li>
+              <li data-filter=".filter-nutritionTracker">NutritionTracker</li>
               <li data-filter=".filter-card">Card</li>
               <li data-filter=".filter-web">Web</li>
             </ul>
@@ -24,19 +26,9 @@ const Portfolio = () => {
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="../../img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="../../img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Project title = "BreadBasket Shopper" description= "Grocery shopping web application" filter = 'filter-breadBasket' image = '../../img/portfolio/portfolio-1.jpg' githubLink = "" liveLink = ""/>
+          <Project title = "BreadBasket Driver" description = "Grocery delivery mobile application" filter = 'filter-breadBasket' image = '../../img/portfolio/portfolio-3.jpg'/>
+          <Project title = "Nutrition Tracker" description = "Diet and exercise tracking web application" filter = 'filter-nutritionTracker' image = '../../img/portfolio/portfolio-3.jpg'/>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
@@ -52,7 +44,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-project">
             <div class="portfolio-wrap">
               <img src="../../img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""/>
               <div class="portfolio-info">
@@ -94,7 +86,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-project">
             <div class="portfolio-wrap">
               <img src="../../img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""/>
               <div class="portfolio-info">
