@@ -23,7 +23,7 @@ const Skills = () => {
 
             <div class = "skills-column">
                 <div class = "skills-header">
-                    <img style = {{width: '4em', height: '4em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/bx-window.svg'}/>
+                    <img style = {{width: '4em', height: '4em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/bx-window.svg'} alt = ""/>
                     <span><h4>Frontend</h4></span>
                 </div>
                 <ul class = "skills-list">
@@ -44,7 +44,7 @@ const Skills = () => {
 
             <div class = "skills-column"> 
                 <div class = "skills-header">
-                    <img style = {{width: '4em', height: '4em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/bx-data.svg'}/>
+                    <img style = {{width: '4em', height: '4em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/bx-data.svg'} alt = ""/>
                     <span><h4>Backend</h4></span>
                 </div>
                 <ul class = "skills-list">
@@ -65,7 +65,7 @@ const Skills = () => {
 
             <div class = "skills-column"> 
                 <div class = "skills-header">
-                    <img style = {{width: '4em', height: '4em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/library-regular.png'}/>
+                    <img style = {{width: '4em', height: '4em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/library-regular.png'} alt = ""/>
                     <span><h4>API</h4></span>
                 </div>
                 <ul class = "skills-list">

@@ -11,7 +11,7 @@ import About from './components/sections/About'
 import Skills from './components/sections/Skills'
 import Resume from './components/sections/Resume'
 import Portfolio from './components/sections/Portfolio'
-import Services from './components/sections/Services'
+// import Services from './components/sections/Services'
 import Contact from './components/sections/Contact'
 
 function App() {
