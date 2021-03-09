@@ -8,7 +8,7 @@ const Resume = () => {
             <div class="section-title">
             <h2>Resume</h2>
 
-            <a className = 'btn btn-primary' href = {process.env.PUBLIC_URL + './resume/resume.pdf'} download>
+            <a className = 'btn btn-primary' href = {process.env.PUBLIC_URL + './resume/Allen_Resume.pdf'} download>
                 Download Resume
             </a>
             </div>

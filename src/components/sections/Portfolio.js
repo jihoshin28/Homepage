@@ -1,5 +1,6 @@
 import React from 'react' 
 import Project from '../Project'
+import ProjectDescription from '../ProjectDescription'
 
 const Portfolio = () => {
     return(
@@ -18,130 +19,20 @@ const Portfolio = () => {
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-breadBasket">BreadBasket</li>
               <li data-filter=".filter-nutritionTracker">NutritionTracker</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-movieReviewer">Movie Reviewer</li>
+              <li data-filter=".filter-roastToast">RoastToast</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <Project title = "BreadBasket Shopper" description= "Grocery shopping web application" filter = 'filter-breadBasket' image = '../../img/portfolio/breadBasket_shopper.jpg' githubLink = "" liveLink = ""/>
-          <Project title = "BreadBasket Driver" description = "Grocery delivery mobile application" filter = 'filter-breadBasket' image = {process.env.PUBLIC_URL + '/img/portfolio/driver.webp'}/>
-          <Project title = "Nutrition Tracker" description = "Diet and exercise tracking web application" filter = 'filter-nutritionTracker' image = '../../img/portfolio/nutrition_tracker.jpg'/>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="../../img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="../../img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-            <div class="portfolio-wrap">
-              <img src="../../img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="../../img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="../../img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="../../img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="../../img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="../../img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-            <div class="portfolio-wrap">
-              <img src="../../img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="../../img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="../../img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="../../img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="../../img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="../../img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="../../img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""/>
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="../../img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
+            <Project title = "BreadBasket Shopper" description= "Grocery shopping web application" filter = 'filter-breadBasket' image = {process.env.PUBLIC_URL + './img/portfolio/shopper.png'} githubLink = "https://github.com/jihoshin28/BreadBasket_Shopper" liveLink = "https://www.breadbasketdelivery.com/"/>
+            {/* <ProjectDescription /> */}
+            <Project title = "BreadBasket Driver" description = "Grocery delivery mobile application" filter = 'filter-breadBasket' image = {process.env.PUBLIC_URL + './img/portfolio/driver.webp'} githubLink = "https://github.com/jihoshin28/BreadBasket_Driver" liveLink = ""/>
+            <Project title = "Nutrition Tracker" description = "Diet and exercise tracking web application" filter = 'filter-nutritionTracker' image = {process.env.PUBLIC_URL + './img/portfolio/nutrition_tracker.png'} githubLink = "https://github.com/jihoshin28/Nutrition_Tracker_2.0_frontend" liveLink = "https://www.nutritiontracker.org/"/>
+            <Project title = "Movie Reviewer" description = "Movie review website" filter = "filter-movieReviewer" image = {process.env.PUBLIC_URL + './img/portfolio/movie_reviewer.png'} githubLink = "https://github.com/jihoshin28/Movie_Reviewer_2019" liveLink = "https://movie-reviewer-rb.herokuapp.com/"/>
+            <Project title = "Roast n Toast" description = "Forum website for roasting and toasting" filter = "filter-roastToast" image = {process.env.PUBLIC_URL + './img/portfolio/roastnToast.png'} githubLink = "https://github.com/jihoshin28/roastntoast-frontend" liveLink = "https://roast-n-toast.herokuapp.com/"/>
         </div>
 
       </div>

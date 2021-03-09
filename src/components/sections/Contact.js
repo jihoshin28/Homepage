@@ -4,9 +4,10 @@ const Contact = () => {
     return(
         <section id="contact" class="contact">
             <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                <h2>Contact</h2>
+                <div class = "section-center">
+                    <div class="section-title">
+                    <h2>Contact</h2>
+                    </div>
                 </div>
 
                 <div class="row mt-1">
@@ -20,7 +21,9 @@ const Contact = () => {
                     </div>
 
                     <div class="email">
-                        <i class="bi bi-envelope"></i>
+                        <a>
+                            <i class="bi bi-envelope"></i>
+                        </a>
                         <h4>Email:</h4>
                         <p>jihoshin.28@gmail.com</p>
                     </div>
