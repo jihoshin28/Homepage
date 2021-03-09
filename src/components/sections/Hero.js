@@ -32,11 +32,9 @@ class Hero extends React.Component {
                 <h1>Allen Shin</h1>
                 <p class = "intro-type"><span ref = {(el) => {this.el = el}} style={{ whiteSpace: 'pre' }} id="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
                 <div class="social-links">
-                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/allen-shin/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/jihoshin28" class="google-plus"><i class="bx bxl-github"></i></a>
+                <a href="https://www.facebook.com/allen.shin.5" class="facebook"><i class="bx bxl-facebook"></i></a>
                 </div>
                 </div>
             </section>

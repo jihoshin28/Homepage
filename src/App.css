@@ -1005,6 +1005,14 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
+  margin-top: -5%;
+}
+
+.contact-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .contact .info i {
