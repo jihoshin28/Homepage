@@ -19,9 +19,9 @@ const Resume = () => {
             <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
               <h4>Allen Shin</h4>
-              <p><em>Software Engineer with 3 years of full stack development experience through 15+ solo/team projects in multiple frameworks.      
-I am a quick learner with adept software fundamentals for effective coding and debugging with test driven development. Passionate about learning current web trends along with data structures/algorithms for scalable and efficient software. 
-</em></p>
+                <p><em>Software Engineer with 3 years of full stack development experience through 15+ solo/team projects in multiple frameworks.      
+                    I am a quick learner with adept software fundamentals for effective coding and debugging with test driven development. Passionate about learning current web trends along with data structures/algorithms for scalable and efficient software. 
+                </em></p>
               <ul>
                 <li>Union City, CA</li>
                 <li>(510)789-9938</li>
