@@ -26,9 +26,9 @@ const Portfolio = () => {
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <Project title = "BreadBasket Shopper" description= "Grocery shopping web application" filter = 'filter-breadBasket' image = '../../img/portfolio/portfolio-1.jpg' githubLink = "" liveLink = ""/>
-          <Project title = "BreadBasket Driver" description = "Grocery delivery mobile application" filter = 'filter-breadBasket' image = '../../img/portfolio/portfolio-3.jpg'/>
-          <Project title = "Nutrition Tracker" description = "Diet and exercise tracking web application" filter = 'filter-nutritionTracker' image = '../../img/portfolio/portfolio-3.jpg'/>
+          <Project title = "BreadBasket Shopper" description= "Grocery shopping web application" filter = 'filter-breadBasket' image = '../../img/portfolio/breadBasket_shopper.jpg' githubLink = "" liveLink = ""/>
+          <Project title = "BreadBasket Driver" description = "Grocery delivery mobile application" filter = 'filter-breadBasket' image = {process.env.PUBLIC_URL + '/img/portfolio/driver.webp'}/>
+          <Project title = "Nutrition Tracker" description = "Diet and exercise tracking web application" filter = 'filter-nutritionTracker' image = '../../img/portfolio/nutrition_tracker.jpg'/>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
