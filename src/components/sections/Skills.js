@@ -13,7 +13,7 @@ const Skills = () => {
         <div class = "section-center">
             <div class="section-title">
                 <p>Capable of building full scale, marketable applications in multiple full stack frameworks.</p>
-                <p>Familiar with multiple popular web API's for common web services.</p>
+                <p>Familiar with finding solutions from API/language documentation and forums.</p>
                 <p>Methodical problem solver, adept Googler, and quick learner.</p>
             </div>
         </div>
