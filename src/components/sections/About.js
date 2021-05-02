@@ -23,7 +23,7 @@ const About = () => {
                 <br></br>
                 <div class="row">
                     <div class="col-lg-4">
-                        <img src = {process.env.PUBLIC_URL + './img/profile.jpg'} class="img-fluid" alt=""/>
+                        <img style = {{borderRadius: '10px'}} src = {process.env.PUBLIC_URL + './img/profile.jpg'} class="img-fluid" alt=""/>
                     </div>
                     <div class="col-lg-8 pt-4 pt-lg-0 content">
                         <h3 style = {{marginTop: '5%'}}>Full Stack Developer</h3>
