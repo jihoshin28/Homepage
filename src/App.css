@@ -154,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu {
   padding: 0;
   display: block;
+  margin-left: 12%;
 }
 
 .nav-menu * {
@@ -499,12 +500,21 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   margin-bottom: 3%;
 }
 
 .skills-list{
   font-size: 1em;
+  max-width: 80%;
+}
+
+.skills-div{
+  padding: 20%;
+  padding-top: 5%;
+  border: 1px solid black; 
+  width: 75%;
+  justify-content: center;
+  align-items: center;
 }
 
 /*--------------------------------------------------------------

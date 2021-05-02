@@ -22,20 +22,22 @@ const Skills = () => {
           <div class="col-lg-4">
 
             <div class = "skills-column">
+                <div class = "skills-div">
                 <div class = "skills-header">
-                    <img style = {{width: '4em', height: '4em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/bx-window.svg'} alt = ""/>
+                    <img style = {{width: '2em', height: '2em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/bx-window.svg'} alt = ""/>
                     <span><h4>Frontend</h4></span>
                 </div>
-                <ul class = "skills-list">
-                    <li>React</li>
-                    <li>React Native</li>
-                    <li>Redux</li>
-                    <li>Angular</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>Javascript</li>
-                    <li>Typescript</li>
-                </ul>
+                    <div class = "skills-list">
+                        <p>React</p>
+                        <p>React Native</p>
+                        <p>Redux</p>
+                        <p>Angular</p>
+                        <p>HTML5</p>
+                        <p>CSS3</p>
+                        <p>Javascript</p>
+                        <p>Typescript</p>
+                    </div>
+                </div>
             </div>
 
           </div>
@@ -43,20 +45,22 @@ const Skills = () => {
           <div class="col-lg-4">
 
             <div class = "skills-column"> 
-                <div class = "skills-header">
-                    <img style = {{width: '4em', height: '4em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/bx-data.svg'} alt = ""/>
-                    <span><h4>Backend</h4></span>
+                <div class = "skills-div">
+                    <div class = "skills-header">
+                        <img style = {{width: '2em', height: '2em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/bx-data.svg'} alt = ""/>
+                        <span><h4>Backend</h4></span>
+                    </div>
+                    <div class = "skills-list">
+                        <p>Ruby/Rails</p>
+                        <p>MongoDB</p>
+                        <p>Express</p>
+                        <p>Node.js</p>
+                        <p>Python</p>
+                        <p>FAST API</p>
+                        <p>MySQL</p>
+                        <p>Postgres</p>
+                    </div>
                 </div>
-                <ul class = "skills-list">
-                    <li>Ruby/Rails</li>
-                    <li>MongoDB</li>
-                    <li>Express</li>
-                    <li>Node.js</li>
-                    <li>Python</li>
-                    <li>FAST API</li>
-                    <li>MySQL</li>
-                    <li>Postgres</li>
-                </ul>
             </div>
             
 
@@ -64,20 +68,22 @@ const Skills = () => {
           <div class="col-lg-4">
 
             <div class = "skills-column"> 
-                <div class = "skills-header">
-                    <img style = {{width: '4em', height: '4em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/library-regular.png'} alt = ""/>
-                    <span><h4>API</h4></span>
+                <div class = "skills-div">
+                    <div class = "skills-header">
+                        <img style = {{width: '2em', height: '2em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/library-regular.png'} alt = ""/>
+                        <span><h4>API</h4></span>
+                    </div>
+                    <div class = "skills-list">
+                        <p>Google Maps</p>
+                        <p>Google Auth</p>
+                        <p>Google Charts</p>
+                        <p>Stripe</p>
+                        <p>Paypal</p>
+                        <p>Navigation</p>
+                        <p>Nutritionix</p>
+                        <p>Speech-2-Text</p>
+                    </div>
                 </div>
-                <ul class = "skills-list">
-                    <li>Google Maps</li>
-                    <li>Google Auth</li>
-                    <li>Google Charts</li>
-                    <li>Stripe</li>
-                    <li>Paypal</li>
-                    <li>React Navigation</li>
-                    <li>Language Recognition</li>
-                    <li>Speech-to-Text</li>
-                </ul>
             </div>
             
 

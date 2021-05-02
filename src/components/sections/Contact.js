@@ -13,11 +13,14 @@ const Contact = () => {
                
                     <div class="info">
                         <div class = "contact-row">
-                            <div class="address">
-                                <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>Union City, CA</p>
-                            </div>
+                            <a href = "google.com">
+                        
+                                <div class="address">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <h4>Location:</h4>
+                                    <p>Union City, CA</p>
+                                </div>
+                            </a>
 
                             <a href="mailto: jihoshin.28@gmail.com">
                                 <div class="email">
@@ -34,7 +37,7 @@ const Contact = () => {
                                 </div>
                             </a>
                         </div>
-                        </div>
+                    </div>
             
 
             </div>
