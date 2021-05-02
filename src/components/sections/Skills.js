@@ -6,7 +6,7 @@ const Skills = () => {
       <div class="container" data-aos="fade-up">
         <div class = "section-center">
             <div class="section-title">
-            <h2>Skills</h2>
+                <h2>Skills</h2>
             </div>
             
         </div>
@@ -24,7 +24,7 @@ const Skills = () => {
             <div class = "skills-column">
                 <div class = "skills-div">
                 <div class = "skills-header">
-                    <img style = {{width: '2em', height: '2em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/bx-window.svg'} alt = ""/>
+                    <img style = {{width: '3em', height: '3em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/bx-window.svg'} alt = ""/>
                     <span><h4>Frontend</h4></span>
                 </div>
                     <div class = "skills-list">
@@ -47,7 +47,7 @@ const Skills = () => {
             <div class = "skills-column"> 
                 <div class = "skills-div">
                     <div class = "skills-header">
-                        <img style = {{width: '2em', height: '2em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/bx-data.svg'} alt = ""/>
+                        <img style = {{width: '3em', height: '3em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/bx-data.svg'} alt = ""/>
                         <span><h4>Backend</h4></span>
                     </div>
                     <div class = "skills-list">
@@ -70,7 +70,7 @@ const Skills = () => {
             <div class = "skills-column"> 
                 <div class = "skills-div">
                     <div class = "skills-header">
-                        <img style = {{width: '2em', height: '2em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/library-regular.png'} alt = ""/>
+                        <img style = {{width: '3em', height: '3em', marginBottom: '4%', marginRight: '2%'}} src = {process.env.PUBLIC_URL + './img/icons/library-regular.png'} alt = ""/>
                         <span><h4>API</h4></span>
                     </div>
                     <div class = "skills-list">
