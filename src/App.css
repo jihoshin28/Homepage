@@ -116,6 +116,26 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+/*--------------------------------------------------------------
+# Mobile device tweaks
+--------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  .contact-row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 22%;
+  }
+
+  #portfolio-fltrs{
+    display: none;
+  }
+}
+
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
