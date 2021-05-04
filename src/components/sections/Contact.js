@@ -12,9 +12,8 @@ const Contact = () => {
 
                
                     <div class="info">
-                        <div class = "contact-row">
+                        <div class = "contact-row contact-mobile">
                             <a href = "https://www.google.com/maps/place/Union+City,+CA/@37.5990454,-122.0532855,13z/data=!3m1!4b1!4m5!3m4!1s0x808f91bc5187ea93:0x5bacde6cbc648aee!8m2!3d37.5933562!4d-122.0438609"> 
-                            {/* ,11.64z */}
                                 <div class="address">
                                     <i class="bi bi-geo-alt"></i>
                                     <h4>Location:</h4>
@@ -29,6 +28,7 @@ const Contact = () => {
                                     <p>jihoshin.28@gmail.com</p>
                                 </div>
                             </a>
+
                             <a href = "facetime: 15107899938">
                                 <div class="phone">
                                     <i class="bi bi-phone"></i>
