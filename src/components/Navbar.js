@@ -3,8 +3,7 @@ import React from 'react'
 const NavBar = () => {
     return (
         <React.Fragment>
-            <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
+        
             <header id="header" class="d-flex flex-column justify-content-center">
 
                 <nav id="navbar" class="navbar nav-menu">
@@ -17,7 +16,6 @@ const NavBar = () => {
                     <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
                 </ul>
                 </nav>
-
             </header>
         </React.Fragment>
     )
